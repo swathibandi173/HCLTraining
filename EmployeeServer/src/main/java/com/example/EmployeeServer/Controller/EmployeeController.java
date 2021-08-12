@@ -32,6 +32,7 @@ public class EmployeeController {
 		return new ResponseEntity<>(emp,HttpStatus.CREATED);
 	}
 	
+	//getmapping
 	@GetMapping("/api/employee/")
 	public ResponseEntity<List<Employee>> viewEmployees() {
 		List<Employee> viewEmployees = service.viewEmployees();
