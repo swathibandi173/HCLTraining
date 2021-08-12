@@ -24,6 +24,7 @@ public class EmployeeController {
 	@Autowired
 	private EmployeeService service;
 	
+	//postmapping
 	@PostMapping("/api/employee/add")
 	public ResponseEntity<Employee> addEmployee(@Valid @RequestBody Employee employee) {
 	
